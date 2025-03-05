@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Product Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ff9900;
+        }
+
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 2rem;
+        }
+
+        .product-image {
+            flex: 1 1 300px;
+            text-align: center;
+            margin: 1rem;
+        }
+
+        .product-image img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            max-height: 400px;
+        }
+
+        .product-details {
+            flex: 1 1 300px;
+            margin: 1rem;
+        }
+
+        .product-title {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .product-description {
+            margin: 1rem 0;
+            line-height: 1.5;
+        }
+
+        .product-price {
+            font-size: 1.5rem;
+            color: #e63946;
+            margin: 1rem 0;
+        }
+
+        .add-to-cart, .buy-now {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        .add-to-cart {
+    background-color: lightgray;
+    color: black;
+}
+
+.buy-now {
+    background-color: yellow;
+    color: black;
+
+
+</style>
+</head>
+<body>
+    <header>
+        <h1>E-Commerce Website</h1>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="products.html">Products</a>
+    </nav>
+
+    <div class="product-container">
+        <div class="product-image">
+            <img src="AppleiPhone16.jpg" alt="AppleiPhone16">
+        </div>
+
+        <div class="product-details">
+            <h2 class="product-title">Apple iPhone16 (Black, 128 GB)</h2>
+            <div class="product-rating">★★★★⯪4.3</div>
+            <div class="product-price">↓6% <strike>₹79,900</strike> ₹74,900</div>
+            <p class="product-description">
+                iPhone 16, Built for Apple Intelligence, Featuring Camera Control, 48 MP Fusion camera, 
+                Five vibrant colours, And A18 chip.
+            </p>
+            <div class="container">
+                <a href="#" class="add-to-cart">Add to Cart</a>
+                <a href="#" class="buy-now">Buy Now</a>
+            </div>
+        </div>
+    </div>
+
+   </body>
+</html>
